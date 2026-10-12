@@ -1,7 +1,7 @@
 {
   "config":{
     "hw_platform": ["QRD"],
-    "soc_id": ["613"]
+    "soc_id": ["537"]
   },
   "icm4x6xx_0":{
     "owner": "icm4x6xx",
@@ -101,7 +101,7 @@
     ".config":{
       "owner": "icm4x6xx",
       "bus_type":{ "type": "int", "ver": "0",
-        "data": "3"
+        "data": "0"
       },
       "bus_instance":{ "type": "int", "ver": "0",
         "data": "1"
@@ -116,7 +116,7 @@
         "data": "400"
       },
       "max_bus_speed_khz":{ "type": "int", "ver": "0",
-        "data": "12500"
+        "data": "400"
       },
       "reg_addr_type":{ "type": "int", "ver": "0",
         "data": "0"

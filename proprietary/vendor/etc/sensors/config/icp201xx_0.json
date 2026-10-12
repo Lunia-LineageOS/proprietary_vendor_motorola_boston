@@ -2,7 +2,7 @@
   "config":
   {
     "hw_platform": ["QRD"],
-    "soc_id": ["613"]
+    "soc_id": ["537"]
   },
   "icp201xx_0":{
     "owner": "sns_icp201xx",
@@ -51,7 +51,7 @@
         "data": "0"
       },
       "bus_instance":{ "type": "int", "ver": "0",
-        "data": "2"
+        "data": "1"
       },
       "slave_config":{ "type": "int", "ver": "0",
         "data": "100"

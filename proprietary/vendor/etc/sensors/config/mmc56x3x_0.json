@@ -1,7 +1,7 @@
 {
   "config":{
     "hw_platform": ["QRD"],
-    "soc_id": ["613"]
+    "soc_id": ["537"]
   },
   "mmc56x3x_0":{
     "owner": "sns_mmc56x3x",
@@ -32,7 +32,7 @@
         "data": "0"
       },
       "bus_instance":{ "type": "int", "ver": "0",
-        "data": "2"
+        "data": "1"
       },
       "slave_config":{ "type": "int", "ver": "0",
         "data": "48"
@@ -65,13 +65,13 @@
     ".orient":{
       "owner": "sns_mmc56x3x",
       "x":{ "type": "str", "ver": "0",
-        "data": "-y"
+        "data": "+x"
       },
       "y":{ "type": "str", "ver": "0",
-        "data": "-x"
+        "data": "+y"
       },
       "z":{ "type": "str", "ver": "0",
-        "data": "-z"
+        "data": "+z"
       }
     },
     ".mag":{
@@ -81,31 +81,31 @@
         ".corr_mat":{
           "owner": "sns_mmc56x3x",
           "0_0":{ "type": "flt", "ver": "0",
-            "data": "0.991489"
+            "data": "0.99724"
           },
           "0_1":{ "type": "flt", "ver": "0",
-            "data": "0.128391"
+            "data": "0.0555445"
           },
           "0_2":{ "type": "flt", "ver": "0",
-            "data": "0.021586"
+            "data": "-0.048996"
           },
           "1_0":{ "type": "flt", "ver": "0",
-            "data": "0.137577"
+            "data": "0.0839495"
           },
           "1_1":{ "type": "flt", "ver": "0",
-            "data": "0.934743"
+            "data": "0.950406"
           },
           "1_2":{ "type": "flt", "ver": "0",
-            "data": "0.003783"
+            "data": "0.0317535"
           },
           "2_0":{ "type": "flt", "ver": "0",
-            "data": "-0.000794"
+            "data": "-0.024619"
           },
           "2_1":{ "type": "flt", "ver": "0",
-            "data": "-0.033006"
+            "data": "-0.036741"
           },
           "2_2":{ "type": "flt", "ver": "0",
-            "data": "1.151595"
+            "data": "1.137557"
           }
         },
         ".bias":{

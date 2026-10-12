@@ -2,7 +2,7 @@
   "config":
   {
     "hw_platform": ["QRD"],
-    "soc_id": [ "613"]
+    "soc_id": [ "537"]
   },
     "qmc630x_0":{
     "owner": "qmc630x",
@@ -45,7 +45,7 @@
         "data": "0"
       },
       "bus_instance":{ "type": "int", "ver": "0",
-        "data": "2"
+        "data": "1"
       },
       "slave_config":{ "type": "int", "ver": "0",
         "data": "44"
@@ -93,13 +93,13 @@
     ".orient":{
       "owner": "qmc630x",
       "x":{ "type": "str", "ver": "0",
-        "data": "-y"
+        "data": "+x"
       },
       "y":{ "type": "str", "ver": "0",
-        "data": "-x"
+        "data": "+y"
       },
       "z":{ "type": "str", "ver": "0",
-        "data": "-z"
+        "data": "+z"
       }
     },
     ".mag":{
@@ -109,31 +109,31 @@
         ".corr_mat":{
           "owner": "qmc630x",
           "0_0":{ "type": "flt", "ver": "0",
-            "data": "0.890784"
+            "data": "0.946912"
           },
           "0_1":{ "type": "flt", "ver": "0",
-            "data": "0.135464"
+            "data": "0.048268"
           },
           "0_2":{ "type": "flt", "ver": "0",
-            "data": "0.031028"
+            "data": "-0.04761"
           },
           "1_0":{ "type": "flt", "ver": "0",
-            "data": "0.124907"
+            "data": "0.078161"
           },
           "1_1":{ "type": "flt", "ver": "0",
-            "data": "0.836339"
+            "data": "0.929644"
           },
           "1_2":{ "type": "flt", "ver": "0",
-            "data": "-0.02183"
+            "data": "0.005409"
           },
           "2_0":{ "type": "flt", "ver": "0",
-            "data": "0.025034"
+            "data": "-0.01802"
           },
           "2_1":{ "type": "flt", "ver": "0",
-            "data": "-0.02143"
+            "data": "0.003061"
           },
           "2_2":{ "type": "flt", "ver": "0",
-            "data": "1.029082"
+            "data": "1.066377"
           }
         },
         ".bias":{

@@ -2,7 +2,7 @@
   "config":
   {
     "hw_platform": ["QRD"],
-    "soc_id": ["613"]
+    "soc_id": ["537"]
   },
   "mot_ltv":{
     "owner": "mot_ltv",

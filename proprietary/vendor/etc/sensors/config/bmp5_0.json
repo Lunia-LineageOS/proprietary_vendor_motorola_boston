@@ -1,7 +1,7 @@
 {
   "config":{
     "hw_platform": ["QRD"],
-    "soc_id": ["613"]
+    "soc_id": ["537"]
   },
   "bmp5_0":{
     "owner": "sns_bmp5",
@@ -50,7 +50,7 @@
         "data": "0"
       },
       "bus_instance":{ "type": "int", "ver": "0",
-        "data": "2"
+        "data": "1"
       },
       "slave_config":{ "type": "int", "ver": "0",
         "data": "71"

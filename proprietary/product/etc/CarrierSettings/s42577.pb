@@ -1,5 +1,5 @@
 
-s42577ศฬฌ"๒
+s42577ิงฃง"๒
 carrier_name_override_bool(!
 carrier_name_string
 HOT mobile

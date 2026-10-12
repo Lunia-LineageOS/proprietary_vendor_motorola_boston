@@ -1,7 +1,7 @@
 {
   "config":{
     "hw_platform": ["HDK", "MTP", "Dragon", "Surf", "IDP", "QRD"],
-    "soc_id": ["613"]
+    "soc_id": ["537"]
   },
   "stk3acx_0":{
     "owner": "sns_stk3acx",
@@ -50,7 +50,7 @@
         "data": "0"
       },
       "bus_instance":{ "type": "int", "ver": "0",
-        "data": "2"
+        "data": "1"
       },
       "slave_config":{ "type": "int", "ver": "0",
         "data": "72"
@@ -100,7 +100,7 @@
       ".fac_cal":{
         "owner": "sns_stk3acx",
         "scale":{ "type": "flt", "ver": "0",
-          "data": "170.0"
+          "data": "140.0"
         },
         "bias":{ "type": "flt", "ver": "0",
           "data": "5000.0"
@@ -109,7 +109,7 @@
           "data": "400.0"
         },
         "default_scale":{ "type": "flt", "ver": "0",
-          "data": "170.0"
+          "data": "140.0"
         },
         "white_ch0":{ "type": "flt", "ver": "0",
           "data": "1.0"
@@ -154,25 +154,25 @@
       ".fac_cal":{
         "owner": "sns_stk3acx",
         "near_threshold":{ "type": "flt", "ver": "0",
-          "data": "500.0"
+          "data": "660.0"
         },
         "far_threshold":{ "type": "flt", "ver": "0",
-          "data": "440.0"
+          "data": "500.0"
         },
         "ctir_config":{ "type": "flt", "ver": "0",
           "data": "0.0"
         },
         "cover":{ "type": "flt", "ver": "0",
-          "data": "430.0"
+          "data": "850.0"
         },
         "uncover":{ "type": "flt", "ver": "0",
-          "data": "170.0"
+          "data": "400.0"
         },
         "default_near_threshold":{ "type": "flt", "ver": "0",
-          "data": "500.0"
+          "data": "660.0"
         },
         "default_far_threshold":{ "type": "flt", "ver": "0",
-          "data": "440.0"
+          "data": "500.0"
         },
         "default_factor":{ "type": "flt", "ver": "0",
           "data": "1000.0"
@@ -190,13 +190,13 @@
           "data": "0.6"
         },
         "low_coeff":{ "type": "flt", "ver": "0",
-          "data": "0.37"
+          "data": "0.45"
         },
         "default_cover":{ "type": "flt", "ver": "0",
-          "data": "430"
+          "data": "850"
         },
         "default_uncover":{ "type": "flt", "ver": "0",
-          "data": "170"
+          "data": "400"
         },
         "min_delta":{ "type": "flt", "ver": "0",
           "data": "0.0"
@@ -205,10 +205,10 @@
       ".variable":{
         "owner": "sns_stk3acx",
         "pLowTh":{ "type": "flt", "ver": "0",
-          "data": "440.0"
+          "data": "500.0"
         },
         "pHighTh":{ "type": "flt", "ver": "0",
-          "data": "500.0"
+          "data": "660.0"
         },
         "WTime":{ "type": "int", "ver": "0",
           "data": "64"
@@ -217,7 +217,7 @@
           "data": "0.6"
         },
         "low_coeff":{ "type": "flt", "ver": "0",
-          "data": "0.37"
+          "data": "0.45"
         },
         "pUseOilAlgo":{ "type": "int", "ver": "0",
           "data": "0"
@@ -302,22 +302,22 @@
         "data": "1"
       },
       "ratio_d":{ "type": "int", "ver": "0",
-        "data": "100"
+        "data": "120"
       },
       "ratio_a":{ "type": "int", "ver": "0",
-        "data": "247"
+        "data": "280"
       },
       "window_c":{ "type": "flt", "ver": "0",
         "data": "1.0"
       },
       "window_d":{ "type": "flt", "ver": "0",
-        "data": "0.453"
+        "data": "0.44"
       },
       "window_a":{ "type": "flt", "ver": "0",
-        "data": "0.333"
+        "data": "0.20"
       },
       "window_h":{ "type": "flt", "ver": "0",
-        "data": "0.231"
+        "data": "0.13"
       },
       "min_c_data":{ "type": "int", "ver": "0",
         "data": "50"
@@ -332,13 +332,13 @@
         "data": "1500"
       },
       "ratio_h":{ "type": "int", "ver": "0",
-        "data": "460"
+        "data": "437"
       },
       "ratio_sun":{ "type": "int", "ver": "0",
         "data": "40"
       },
       "window_sun":{ "type": "flt", "ver": "0",
-        "data": "0.567"
+        "data": "0.78"
       },
       "window_clear":{ "type": "flt", "ver": "0",
         "data": "0.0"

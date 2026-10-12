@@ -1,5 +1,5 @@
 
-s214703ศฬฌ"ื 
+s214703ิงฃง"ื 
 allow_merging_rtt_calls_bool($
  carrier_supports_ss_over_ut_bool( 
 carrier_volte_available_bool(&
